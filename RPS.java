@@ -28,7 +28,7 @@ public class RPS extends Arcade {
         System.out.println("Starting game... Coins left: " + coins);
 
         boolean keepPlaying = true;
-        while (keepPlaying && coins >= 5) {
+        while (keepPlaying && coins >= 1) {
             System.out.print("Enter your choice (rock, paper, scissors) or 'quit' to exit: ");
             String playerChoice = input.nextLine().toLowerCase();
 
@@ -58,7 +58,7 @@ public class RPS extends Arcade {
                 setLosses(1);
             }
 
-            if (coins < 5) {
+            if (coins < 1) {
                 System.out.println("Not enough coins to continue playing!");
                 break;
             }
