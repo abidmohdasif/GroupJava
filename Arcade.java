@@ -63,9 +63,3 @@ public abstract class Arcade {
         System.out.println("Coins: " + this.coins);
     }
 }
-
-//public class Arcade {
-//    public static void main(String[] args){
-//        
-//    }
-//}
