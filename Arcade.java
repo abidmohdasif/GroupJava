@@ -57,7 +57,7 @@ public abstract class Arcade {
     public abstract void playGame();
     
     public void displayStats(){
-        System.out.println("Game: " + this.gameName);
+        System.out.println("\nGame: " + this.gameName);
         System.out.println("Wins: " + this.wins);
         System.out.println("Loses: " + this.losses);
         System.out.println("Coins: " + this.coins);
