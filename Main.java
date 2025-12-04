@@ -27,7 +27,9 @@ public class Main {
                     break;
 
                 case 2:
-                    
+                    Coin coin = new Coin();
+                    coin.playGame();
+                    coin.displayStats();
                     break;
 
                 case 3:
