@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3. Coin Flip ");
             System.out.println("4. Blackjack ");
             System.out.println("5. Exit Arcade");
-            System.out.print("Choose a game (1-5): ");
+            System.out.println("Choose a game (1-5): ");
 
             int choice = input.nextInt();
 
