@@ -14,11 +14,11 @@ public class RPS extends Arcade {
 // Starts the Game
     @Override
     public void playGame() {
-        try (Scanner input = new Scanner(System.in)) {
-            Random random = new Random(); // This gets random for the "AI"
+        Scanner input = new Scanner(System.in);
+        Random random = new Random(); // This gets random for the "AI"
 
-            System.out.println("Welcome to Rock Paper Scissors");
-            System.out.println("Cost to play: 1 coins per match.");
+        System.out.println("Welcome to Rock Paper Scissors");
+        System.out.println("Cost to play: 1 coins per match.");
 
         if (coins < 1) {
             System.out.println("Not enough coins to play!");
@@ -68,7 +68,6 @@ public class RPS extends Arcade {
             String again = input.nextLine().toLowerCase();
             if (!again.equals("yes")) {
                 keepPlaying = false;
-                }
             }
         }
     }
