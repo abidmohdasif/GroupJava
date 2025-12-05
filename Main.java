@@ -95,7 +95,7 @@ public class Main {
                     break;
 
                 case 5:
-                    //OUtput Thank You
+                    //Output Thank You
                     System.out.println("\nThank you for playing the Arcade!");
                     running = false;
                     break;
