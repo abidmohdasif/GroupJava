@@ -87,7 +87,9 @@ public class Main {
                     break;
 
                 case 4:
-                   
+                   Blackjack blackjack = new Blackjack();
+                    blackjack.playGame();
+                    blackjack.displayStats();
                     break;
 
                 case 5:
