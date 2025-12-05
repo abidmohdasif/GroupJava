@@ -42,11 +42,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
+        //Create Scanner
         Scanner input = new Scanner(System.in);
 
+        //While running is true, display arcade menu
         boolean running = true;
         while (running) {
+            //Displays 4 games and option to leave arcade
             System.out.println("\n===== Arcade Main Menu =====");
             System.out.println("1. Rock Paper Scissors");
             System.out.println("2. Tic Tac Toe ");
@@ -55,10 +57,17 @@ public class Main {
             System.out.println("5. Exit Arcade");
             System.out.print("Choose a game (1-5): ");
 
+            //Store user input
             int choice = input.nextInt();
 
+            /* User Input Results
+             * 1. Play Rock Paper Scissors class
+             * 2. Tic Tac Toe class
+             * 3. Coin Flip class
+             * 4. Black Jack class
+             * 5. Leave Arcade
+             */
             switch (choice) {
-
                 case 1:
                     RPS rps = new RPS();
                     rps.playGame();
@@ -66,13 +75,13 @@ public class Main {
                     break;
 
                 case 2:
-                    Coin coin = new Coin();
-                    coin.playGame();
-                    coin.displayStats();
+                    
                     break;
 
                 case 3:
-                    
+                    Coin coin = new Coin();
+                    coin.playGame();
+                    coin.displayStats();
                     break;
 
                 case 4:
@@ -80,6 +89,7 @@ public class Main {
                     break;
 
                 case 5:
+                    //OUtput Thank You
                     System.out.println("\nThank you for playing the Arcade!");
                     running = false;
                     break;
