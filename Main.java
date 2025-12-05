@@ -1,5 +1,8 @@
-// 12/02/25
+// Date Created: 12/02/25
+// Last Modified: 12/5/25
 // Abid, Karim, Marcus, Jack
+// Purpose: Run Arcade Menu and create game objects to play
+
 import java.util.Scanner;
 
 public class Main {
