@@ -2,10 +2,10 @@ import java.util.Scanner;
 import java.util.Random;
 
 // Extends the provided Arcade class
-public class TicTacToe extends Arcade {
+public class titato extends Arcade {
 
     // Sets the Game Name via the super constructor
-    public TicTacToe() {
+    public titato() {
         super("Tic Tac Toe");
     }
 
