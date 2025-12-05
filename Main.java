@@ -75,7 +75,9 @@ public class Main {
                     break;
 
                 case 2:
-                    
+                    titato t = new titato();
+                    t.playGame();
+                    t.displayStats();
                     break;
 
                 case 3:
