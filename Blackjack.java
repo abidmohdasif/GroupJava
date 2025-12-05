@@ -1,3 +1,9 @@
+// 12/4/25 
+// Jack Daubman 
+// Blackjack game for the arcade 
+// Win is +10 coins Loss is -5 coins 
+// Users play the game by inputting 4 in the Main and play hands until they wish to cashout by pressing "n" after a hand
+
 import java.util.*;
 
 public class Blackjack extends Arcade {
